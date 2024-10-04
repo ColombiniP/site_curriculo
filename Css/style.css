@@ -90,7 +90,7 @@ main {
     .btn-whats {
         position:fixed;
         right: 25px;
-        top: 450px;
+        top: 350px;
         z-index: 200;
     }
 
@@ -108,7 +108,7 @@ main {
     .btn-whats {
         position:fixed;
         right: 35px;
-        top: 490px;
+        top: 390px;
         z-index: 200;
     }
 
@@ -130,7 +130,7 @@ main {
     .btn-whats {
         position:fixed;
         right: 0px;
-        top: 650px;
+        top: 550px;
         z-index: 200;
     }
 

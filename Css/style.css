@@ -69,6 +69,7 @@ main {
 .btn-whats {
     position:fixed;
     right: 0px;
+    top: 650px;
     z-index: 200;
 }
 
@@ -79,4 +80,62 @@ main {
 .btn-whats img:hover {
     transition: 0.5s;
     transform: scale(1.1);
+}
+
+@media (max-width:320px) {
+    header h1 {
+        font-size: 22pt;
+    }
+
+    .btn-whats {
+        position:fixed;
+        right: 25px;
+        top: 450px;
+        z-index: 200;
+    }
+
+    .btn-whats img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width:425px) {
+    header h1 {
+        font-size: 24pt;
+    }
+
+    .btn-whats {
+        position:fixed;
+        right: 35px;
+        top: 490px;
+        z-index: 200;
+    }
+
+    .btn-whats img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        text-wrap: wrap;
+    }
+
+    header h1 {
+        font-size: 22pt;
+    }
+
+    .btn-whats {
+        position:fixed;
+        right: 0px;
+        top: 650px;
+        z-index: 200;
+    }
+
+    .btn-whats img {
+        width: 55px;
+        height: 55px;
+    }
 }

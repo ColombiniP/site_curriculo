@@ -48,6 +48,15 @@ header .content a {
     text-transform: capitalize;
 }
 
+header .content a:visited {
+    color: blue;
+}
+
+.content a:hover {
+    color: darkblue;
+    transform: scale(1.02);
+}
+
 main {
     line-height: 2rem;
 }
@@ -55,4 +64,20 @@ main {
 .targets p {
     font-weight: bold;
     font-size:20px;
+}
+
+.btn-whats {
+    position:fixed;
+    right: 0px;
+    top: 120px;
+    z-index: 200;
+}
+
+.btn-whats img {
+    border-radius: 50%;
+}
+
+.btn-whats img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }

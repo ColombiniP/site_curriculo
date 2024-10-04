@@ -69,7 +69,6 @@ main {
 .btn-whats {
     position:fixed;
     right: 0px;
-    top: 750px;
     z-index: 200;
 }
 
